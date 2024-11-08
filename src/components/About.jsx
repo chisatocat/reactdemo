@@ -11,7 +11,11 @@ function About() {
 
       <div className="section-center about-center mb-large">
         <div className="about-img">
-          <img className="about-photo" src="/img/about.jpg" alt="" />
+          <img
+            className="about-photo"
+            src={`${process.env.PUBLIC_URL}/img/about.jpg`}
+            alt=""
+          />
         </div>
 
         <article className="about-content">
