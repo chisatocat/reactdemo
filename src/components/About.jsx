@@ -27,7 +27,7 @@ function About() {
             molestiae provident.
           </p>
 
-          <a href="#" className="btn about-btn">
+          <a href="#Home" className="btn about-btn">
             Read More
           </a>
         </article>
