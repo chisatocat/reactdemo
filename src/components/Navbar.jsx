@@ -10,7 +10,7 @@ function Navbar({ toggleFunction, toggleState }) {
       <nav className="navbar">
         <div className="nav-logo">
           <a href="#home">
-            <img src="/img/logo.svg" alt="logo" />
+            <img src={`${process.env.PUBLIC_URL}/img/logo.svg`} alt="logo" />
           </a>
         </div>
 

@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section className="hero" id="home">
       <div className="hero-banner">
-        {/* <img className="hero-image" src="/img/beach2.jpg" alt=""></img> */}
+        <img src={`${process.env.PUBLIC_URL}/img/beach2.jpg`} alt=""></img>
         <h1>Continue Exploring</h1>
 
         <p className="m-2">
